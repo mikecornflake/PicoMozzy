@@ -3,7 +3,7 @@
 
 ## 2024 Notes
 
-(This win95/98/DOS project recently resurfaced, and I think the project is worth preserving and making available.  I had no part of it's development, so I contacted Alistair Shilton and obtained permission to upload to github.   
+This win95/98/DOS project recently resurfaced, and I think the project is worth preserving and making available.  I had no part of it's development, so I contacted Alistair Shilton and obtained permission to upload to github.   
 [Original webpage](docs/Microbee_page.md) was retrieved from the Wayback Machine by @Chickenman
 
 Mike Thompson (Feb 2024)
