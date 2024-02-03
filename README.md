@@ -4,9 +4,13 @@
 ## Notes
 
 (2024) This code recently surfaced, and I think the project is worth preserving and making available.  I had no part of it's development.  I contacted Alistair Shilton and obtained permission to upload to github.   
+
+Original webpage was retrieved from the Wayback Machine by Chickenman
+[a relative link](docs/Microbee page.md)
+
 Mike Thompson Feb 2024
 
-The below is modified from the original readme.txt (which can be found in the docs folder
+The below is modified from the original readme.txt (which can be found in the docs folder)
 
 ## PicoMozzy - a Microbee 32k Emulator v1.25.09.2005 (beta)
 
