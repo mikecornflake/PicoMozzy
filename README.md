@@ -1,12 +1,12 @@
 # PicoMozzy
 (2005) A Microbee 32k Emulator v1.25.09.2005 (beta)
 
-## Notes
+## 2024 Notes
 
-(2024) This win95/98/DOS project recently resurfaced, and I think the project is worth preserving and making available.  I had no part of it's development, so I contacted Alistair Shilton and obtained permission to upload to github.   
+(This win95/98/DOS project recently resurfaced, and I think the project is worth preserving and making available.  I had no part of it's development, so I contacted Alistair Shilton and obtained permission to upload to github.   
 [Original webpage](docs/Microbee_page.md) was retrieved from the Wayback Machine by @Chickenman
 
-Mike Thompson Feb 2024
+Mike Thompson (Feb 2024)
 
 The below is modified from the original [readme.txt](docs/readme.txt) (which can be found in the docs folder)
 
