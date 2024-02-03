@@ -1,0 +1,279 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app17.us.archive.org";archive_analytics.values.server_ms=202;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.76 [en] (Windows NT 5.0; U) [Netscape]">
+   <meta name="KeyWords" content="Pan-galactic Gargle Blaster">
+   <title>Microbee page</title>
+</head>
+<body>
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript" src="/static/jflot/jquery.min.js" ></script>
+<script type="text/javascript">//<![CDATA[
+var __wm = (function(){
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http://www2.ee.unimelb.edu.au/pgrad/apsh/microbee/screenshots.html";
+
+var firstYear = 1996;
+var imgWidth = 500,imgHeight = 27;
+var yearImgWidth = 25,monthImgWidth = 2;
+var displayDay = "27";
+var displayMonth = "Aug";
+var displayYear = "2006";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var $D=document,$=function(n){return document.getElementById(n)};
+var trackerVal,curYear = -1,curMonth = -1;
+var yearTracker,monthTracker;
+function showTrackers(val) {
+  if (val===trackerVal) return;
+  var $ipp=$("wm-ipp");
+  var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+  if (val) {
+    $ipp.className="hi";
+  } else {
+    $ipp.className="";
+    $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+  }
+  yearTracker.style.display=val?"inline":"none";
+  monthTracker.style.display=val?"inline":"none";
+  trackerVal = val;
+}
+function getElementX2(obj) {
+  var $e=jQuery(obj);
+  return (typeof $e=="undefined"||typeof $e.offset=="undefined")?
+    getElementX(obj):Math.round($e.offset().left);
+}
+function trackMouseMove(event,element) {
+  var eventX = getEventX(event);
+  var elementX = getElementX2(element);
+  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+  var monthOff = xOff % yearImgWidth;
+
+  var year = Math.floor(xOff / yearImgWidth);
+  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+  // 1 extra border pixel at the left edge of the year:
+  var month = (year * 12) + monthOfYear;
+  var day = monthOff % 2==1?15:1;
+  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+    zeroPad(day,2) + "000000";
+
+  $("displayYearEl").innerHTML=year+firstYear;
+  $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+  // looks too jarring when it changes..
+  //$("displayDayEl").innerHTML=zeroPad(day,2);
+  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+  $("wm-graph-anchor").href=url;
+
+  if(curYear != year) {
+    var yrOff = year * yearImgWidth;
+    yearTracker.style.left = yrOff + "px";
+    curYear = year;
+  }
+  if(curMonth != month) {
+    var mtOff = year + (month * monthImgWidth) + 1;
+    monthTracker.style.left = mtOff + "px";
+    curMonth = month;
+  }
+}
+function hideToolbar() {
+  $("wm-ipp").style.display="none";
+}
+function bootstrap() {
+  var $spk=$("wm-ipp-sparkline");
+  yearTracker=$D.createElement('div');
+  yearTracker.className='yt';
+  with(yearTracker.style){
+    display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+  }
+  monthTracker=$D.createElement('div');
+  monthTracker.className='mt';
+  with(monthTracker.style){
+    display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+  }
+  $spk.appendChild(yearTracker);
+  $spk.appendChild(monthTracker);
+
+  var $ipp=$("wm-ipp");
+  $ipp&&disclaimElement($ipp);
+}
+return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+})();//]]>
+</script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+<div id="wm-ipp" lang="en" style="display:none;">
+
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+   <table style="width:100%;"><tbody><tr>
+   <td id="wm-logo">
+       <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+   </td>
+   <td class="c">
+       <table style="margin:0 auto;"><tbody><tr>
+       <td class="u" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www2.ee.unimelb.edu.au/pgrad/apsh/microbee/screenshots.html" style="width:400px;" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20060827134535" /><input type="submit" value="Go" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td class="n" rowspan="2">
+           <table><tbody>
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr class="m">
+           	<td class="b" nowrap="nowrap">
+		
+		    Jul
+		
+		</td>
+		<td class="c" id="displayMonthEl" title="You are here: 13:45:35 Aug 27, 2006">AUG</td>
+		<td class="f" nowrap="nowrap">
+		
+		    Sep
+		
+                </td>
+	    </tr>
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr class="d">
+               <td class="b" nowrap="nowrap">
+               
+                       <img src="/static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" />
+               
+               </td>
+               <td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 13:45:35 Aug 27, 2006">27</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   <img src="/static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0"/>
+               
+	       </td>
+           </tr>
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr class="y">
+	       <td class="b" nowrap="nowrap">
+               
+                   2005
+               
+               </td>
+               <td class="c" id="displayYearEl" title="You are here: 13:45:35 Aug 27, 2006">2006</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   2007
+               
+	       </td>
+           </tr>
+           </tbody></table>
+       </td>
+       </tr>
+       <tr>
+       <td class="s">
+           <a class="t" href="/web/20060827134535*/http://www2.ee.unimelb.edu.au/pgrad/apsh/microbee/screenshots.html" title="See a list of every capture for this URL">1 captures</a>
+           <div class="r" title="Timespan for captures of this URL">27 Aug 06 - 27 Aug 06</div>
+       </td>
+       <td class="k">
+       <a href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" title="Explore captures for this URL">
+	 <img id="sparklineImgId" alt="sparklines"
+		 onmouseover="__wm.st(1)" onmouseout="__wm.st(0)"
+		 onmousemove="__wm.mv(event,this)"
+		 width="500"
+		 height="27"
+		 border="0"
+		 src="/web/jsp/graph.jsp?graphdata=500_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:7:000000010000_2007:-1:000000000000_2008:-1:000000000000_2009:-1:000000000000_2010:-1:000000000000_2011:-1:000000000000_2012:-1:000000000000_2013:-1:000000000000_2014:-1:000000000000_2015:-1:000000000000" />
+       </div>
+       </a>
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td class="r">
+       <a href="#close" onclick="__wm.h();return false;" style="background-image:url(/static/images/toolbar/wm_tb_close.png);top:5px;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="background-image:url(/static/images/toolbar/wm_tb_help.png);bottom:5px;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+</div>
+</div>
+</div>
+<script type="text/javascript">__wm.bt();</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+
+<center>
+<h1>
+<font color="#FF6666"><font size=+4>
+PicoMozzy Screenshots
+</font></font>
+</h1>
+</center>
+
+<p>The following screenshots are of the emulator in operation.  You can generate screenshots at any time while
+running the emulator by pressing F8.  The screenshot will be saved as screen.bmp in the same directory as
+the emulator.
+
+<p>Cold reset (power on) and warm reset.  The first screen is what you saw if you pressed reset-escape (keep
+holding down escape for a few seconds after you release the reset key), or when you're battery backup failed 
+(sorry, no battery backup in the emulator... yet).  The second is what you got normally when the machine was
+turned on, or reset was pressed (without escape held down).  Whatever you had in memory would still be there.
+There was no operating system per se on the microbee 32k (that didn't come along until the disk based bees) - 
+just a good clean version of basic crammed into a 16k ROM (that's right - a fully functional basic interpretter 
+with graphics, sound and all the trimmings crammed into less memory than you're average wrist-watch).
+<p><img SRC="startup.bmp">
+<p><img SRC="ready.bmp">
+
+<p>Of course, the mighty bee came with it's own built-in word processor in ROM.  Who needs to spend hours
+installing word when you can just type edasm and hit return?  This one took only 8k.  Alternatively,
+programmers could opt to replace the word processor with an editor/assembler for the z80 - just unplug
+the old ROM and put in the new one.  This option is also available in the emulator, but the edasm 
+screenshot is rather dull.
+<p><img SRC="wordbee.bmp">
+
+<p>But everyone knows that the main reason for writing an emulator is the games.  I'm still going through my old
+collection and finding what ran on the 32k machine, but here's some goodies I've dug up so far...  First, who 
+could forget frogger?  Unfortunately, I seem to have rather lost my touch - more practice needed!
+<p><img SRC="frog2.bmp">
+
+<p>And dodgem - I never did get the car to the bottom of the screen.  It seems so easy (and slow) at the start,
+but don't be fooled!
+<p><img SRC="dodgem.bmp">
+
+<p>Escape from colditz and museum.  Wow, such amazing graphics ;).
+<p><img SRC="colditz.bmp">
+<p><img SRC="museum.bmp">
+
+<p>Sydney approach.  I've got to admit I'm not to familiar with this one.  Nice graphics (well, for the early 80s anyhow), 
+good sound, but I've no idea what keys to use :(.  Oh well.
+<p><img SRC="sydney.bmp">
+
+<p>Most games on the 32k were in black and white (well, strictly speaking black and green, at least on the
+standard monitor), as most bees were sold without the colour board fitted.  Brick-out (aka brickles) was
+originally monochrome, but a colour version did exist.  Here's a screenshot of it in all of it's retina burning
+glory.
+<p><img SRC="cbrikout.bmp">
+
+
+</body>
+</html>
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 13:45:35 Aug 27, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:31:16 Jul 15, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->

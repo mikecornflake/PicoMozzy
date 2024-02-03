@@ -1,0 +1,15 @@
+Hi David
+
+I think I've managed to isolate all relevant stuff you'll need to change to
+the files interf.h and interf.c.  Just search these files for the string
+IS_WEB to see where you'll need to add code for the web interface.  With
+luck you can ignore most of interf.c.
+
+To compile you'll need to use a linux version of the webmake.bat file.  I
+suspect that this will require different NASM options (not sure what linking
+options linux uses).  I *hope* that the assembler part in z80cpux.asm will
+not require editing, but it's possible that linux and windows/dos might use 
+different function munging methods.
+
+good luck
+alistair
